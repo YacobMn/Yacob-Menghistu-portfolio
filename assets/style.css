@@ -1,8 +1,10 @@
 h1 {
     color: rgb(221, 235, 230);
     background-color: rgb(55, 151, 151);
-    width: 25%;
+    width: 10%;
     text-align: center;
+    padding: 5px;
+    display: flex;
    
   
 }
@@ -14,9 +16,9 @@ h1 {
 
 }
 .contact-1{
-    background-color: darkseagreen;
-    height: 200%;
-    display: inline;
+    display: flex;
+    text-align: right;
+    
 }
 .contact-2{
     text-align: middle;
@@ -31,10 +33,18 @@ h1 {
     justify-content: space-evenly;
 
 }
+.work-2{
+    display: flex;
+    justify-content: space-evenly;
+}
 p{
     width: 600px;
 }
 .title-1{
+    border-right: 2px solid black;
+    padding-right: 100px;
+}
+.title-2{
     border-right: 2px solid black;
     padding-right: 100px;
 }
@@ -44,3 +54,10 @@ header{
     background-position: center;
     background-size: 200px 500px;
 }
+h6{
+    border-right: 2px solid black;
+    padding-right: 100px;
+}
+
+
+
