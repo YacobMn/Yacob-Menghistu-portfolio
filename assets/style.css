@@ -1,7 +1,46 @@
-h1{
-    color: rgb(165, 108, 108);
-    background-color: rgba(23, 147, 147, 0.394);
+h1 {
+    color: rgb(221, 235, 230);
+    background-color: rgb(55, 151, 151);
+    width: 25%;
+    text-align: center;
+   
+  
 }
-section{
-    color: black;
+.subtitle{
+    text-align: center;
+    color: rgb(221, 235, 230);
+    background-color: rgb(55, 151, 151);
+    
+
+}
+.contact-1{
+    background-color: darkseagreen;
+    height: 200%;
+    display: inline;
+}
+.contact-2{
+    text-align: middle;
+    
+
+}
+.link{
+    text-align: middle;
+}
+.work{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+p{
+    width: 600px;
+}
+.title-1{
+    border-right: 2px solid black;
+    padding-right: 100px;
+}
+header{
+    background-color: blue;
+    background-image: url("https://www.weather.gov/images/nws/snowy-road.jpg");
+    background-position: center;
+    background-size: 200px 500px;
 }
