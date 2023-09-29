@@ -58,7 +58,6 @@ p{
 .title-2{
     border-right: 15px solid rgb(70, 58, 58);
     padding-right: 2px;
-    
 }
 header{
     background-color: blue;
@@ -77,8 +76,13 @@ img{
     padding: 10px;
     text-align: center;
     border-style: ridge;
+
     
     
+}
+img:hover{
+    filter: blur(4px);
+
 }
 main{
     background-color: rgb(62, 46, 46);
