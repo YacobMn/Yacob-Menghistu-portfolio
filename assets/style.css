@@ -1,27 +1,35 @@
 h1 {
-    color: rgb(221, 235, 230);
-    background-color: rgb(55, 151, 151);
-    width: 10%;
+    color: darkslategrey;
+    background-image: url("https://media.istockphoto.com/id/183387282/photo/brick-wall-painted-white.jpg?s=612x612&w=is&k=20&c=bpCLsLfcEWL-35CVFpO9yj5K32jaffC_fNhkizOSwfU=");
+    width: fit-content;
     text-align: center;
     padding: 5px;
     display: flex;
-   
+   border: 2px;
   
 }
 .subtitle{
     text-align: center;
-    color: rgb(221, 235, 230);
-    background-color: rgb(55, 151, 151);
-    
-
+    color: darkslategrey;
+    background-image: url("https://media.istockphoto.com/id/183387282/photo/brick-wall-painted-white.jpg?s=612x612&w=is&k=20&c=bpCLsLfcEWL-35CVFpO9yj5K32jaffC_fNhkizOSwfU=");
+    height: 35px;
+    border-style: ridge;
 }
 .contact-1{
     display: flex;
     text-align: right;
+    position: absolute;
+    right: 20px;
+    padding-top: 2px;
     
 }
 .contact-2{
-    text-align: middle;
+    text-align:center;
+    background-image: url("https://media.istockphoto.com/id/183387282/photo/brick-wall-painted-white.jpg?s=612x612&w=is&k=20&c=bpCLsLfcEWL-35CVFpO9yj5K32jaffC_fNhkizOSwfU=");
+    padding-top: 4px;
+    color: darkslategrey;
+    border-style: ridge;
+    
     
 
 }
@@ -31,11 +39,14 @@ h1 {
 .work{
     display: flex;
     justify-content: space-evenly;
+    color: aliceblue;
 
 }
 .work-2{
     display: flex;
     justify-content: space-evenly;
+    color: aliceblue;
+
 }
 p{
     width: 600px;
@@ -45,19 +56,34 @@ p{
     padding-right: 100px;
 }
 .title-2{
-    border-right: 2px solid black;
-    padding-right: 100px;
+    border-right: 15px solid rgb(70, 58, 58);
+    padding-right: 2px;
+    
 }
 header{
     background-color: blue;
     background-image: url("https://www.weather.gov/images/nws/snowy-road.jpg");
     background-position: center;
     background-size: 200px 500px;
+    border-style: ridge;
 }
 h6{
     border-right: 2px solid black;
     padding-right: 100px;
+
 }
+img{
+    width: 360px;
+    padding: 10px;
+    text-align: center;
+    border-style: ridge;
+    
+    
+}
+main{
+    background-color: rgb(62, 46, 46);
+}
+
 
 
 
